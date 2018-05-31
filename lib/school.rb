@@ -24,5 +24,5 @@ class School
     @rooster.each do |each_grade|
       each_grade.sort
     end
-  end 
+  end
 end
