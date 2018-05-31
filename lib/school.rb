@@ -11,7 +11,7 @@ class School
     @name
   end
 
-  def roster 
+  def roster
     @roster
   end 
 
