@@ -20,9 +20,9 @@ class School
     @rooster["#{grade}"]
   end
 
-  def sort 
+  def sort
     @rooster.each do |each_grade|
-      each_grade.sort 
-    end 
+      each_grade.sort
+    end
   end 
-end 
+end
