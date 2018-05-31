@@ -32,5 +32,5 @@ class School
       student_array.sort
     end
   end
-    @rooster 
+    @rooster
 end
