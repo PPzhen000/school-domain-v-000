@@ -13,10 +13,10 @@ class School
 
   def roster
     @roster
-  end 
+  end
 
   def add_student(name, grade)
-    if @roster["#{grade}"] == undefined
+    if @roster["#{grade}"] == nil 
     @roster["#{grade}"] = []
     end
     @roster["#{grade}"] << name
