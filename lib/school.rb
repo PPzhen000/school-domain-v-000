@@ -1,8 +1,8 @@
 class School
 
-  def initialize(name, rooster)
+  def initialize(name, roster)
     @name = name
-    @rooster = {}
+    @roster = {}
   end
 
   def name
@@ -10,18 +10,18 @@ class School
   end
 
   def add_student(name, grade)
-    if @rooster["#{grade}"] == undefined
-    @rooster["#{grade}"] = []
+    if @roster["#{grade}"] == undefined
+    @roster["#{grade}"] = []
     end
-    @rooster["#{grade}"] << name
+    @roster["#{grade}"] << name
   end
 
   def grade(grade)
-    @rooster["#{grade}"]
+    @roster["#{grade}"]
   end
 
   def sort
-    @rooster.each do |each_grade|
+    @roster.each do |each_grade|
       each_grade.sort
     end
   end
