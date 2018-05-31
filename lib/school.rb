@@ -11,6 +11,10 @@ class School
     @name
   end
 
+  def roster 
+    @roster
+  end 
+
   def add_student(name, grade)
     if @roster["#{grade}"] == undefined
     @roster["#{grade}"] = []
